@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <title>Tienda - MartinLandia</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/shop.js"></script>
+</head>
+
+<body>
+        <div class="container">
+            <div class="serverIp" onclick="copyIp()">
+                <p>Server status: <span class="serverStatus" id="serverStatus">...</span> Jugadores: <span class="playersOn" id="playersOn">0</span><span class="playersMax">/</span><span class="playersMax" id="playersMax">0</span></p>
+                <p>La IP » <span class="serverIpText" id="serverIpText">..</span></p>
+
+            </div>
+        <div class="bar"></div>
+
+        <div id="bannerTop" class="bannerTop">
+            <div class="logo">
+                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            </div>
+            
+                <a href="./index.html"><p id="title"></p></a>
+            
+        </div>
+        <div class="barTwo"></div>
+        <div class="clear"></div>
+
+
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./news.html">Noticias</a></li>
+                    <li><a href="./information.html">Informacion</a></li>
+                    <li><a href="./shop.html">Tienda</a></li>
+                    <li><a href="./help.html">Soporte</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="article">
+
+            <h1 class="articleTitle">TIENDA DEL SERVIDOR</h1>
+
+            <p class="articleDescription">
+                Aquí puedes encontrar TODOS rangos disponible hasta la fecha.
+            </p>
+
+            <div class="frames">
+                <div class="itemframe">
+                    <div class="itemframeTitle">
+                        VIP
+                    </div>
+
+                    <div class="itemframeImage">
+                        <img src="https://static.wikia.nocookie.net/minecraft_br_gamepedia/images/1/11/Tronco_de_Carvalho.png"
+                            alt="">
+                    </div>
+
+                    <div class="itemframeText">
+                        Adquiere VIP en MartinLandia y obtén el nametag [VIP] junto a tu nombre, un cupo asegurado para los eventos mensuales y Rol VIP en Discord, con sus propios beneficios. Más beneficios proximamente
+                    </div>
+
+                    <input class="itemframeButton" type="button" value="BUY" onclick="Vip1()">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="extra">
+
+        </div>
+
+
+        <div class="clear"></div>
+        <footer>
+            <p>Todos los derechos reservados</p>
+            <p>Página creada por <a href="https://www.youtube.com/@martincortesaraneda"><strong>Martín Cortés Araneda</strong></a> / martincortesaraneda</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
